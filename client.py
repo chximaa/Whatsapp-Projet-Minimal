@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # 2️⃣ Connect to server
-client_socket.connect(("192.168.1.2", 5000))
+client_socket.connect(("127.0.0.1", 5000))
 print("Connected to server.")
 
 # 3️⃣ Communication loop
